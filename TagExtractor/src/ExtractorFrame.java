@@ -152,6 +152,10 @@ public class ExtractorFrame extends JFrame {
 
         parseTags = new JButton("Parse Tags");
         parseTags.addActionListener((ActionEvent ae) -> {
+
+            //I was struggling with this part, so I had an AI (ChatGPT) help me with what I needed to do. This code below isn't all my own due to that.
+            //If you need me to do anything to change this, or if you need me to provide chat logs or proper credit, can you let me know?
+
             try {
                 //Get words from file
                 Files.lines(selectedFile.toPath())
